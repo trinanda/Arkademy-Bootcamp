@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, render_template
 import pymysql
 
 db = pymysql.connect("localhost", "tri", "#Admin123", "Arkademy")
@@ -8,7 +8,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     cursor = db.cursor()
-    # sql = "SELECT * FROM products"
     sql = "select product_categories.id, product_categories.name, products.name FROM products INNER JOIN product_categories ON products.category_id=product_categories.id LIMIT 3;"
 
     cursor.execute(sql)
