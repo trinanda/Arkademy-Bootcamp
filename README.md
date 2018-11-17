@@ -10,8 +10,8 @@ sudah
 6
 7
 5
+3
 
 
 belum
 1
-3
