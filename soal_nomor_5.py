@@ -1,8 +1,8 @@
-def rplstr(string, old, new):
-    for i in range(len(string)):
-        if old == string[i:i+len(old)]:
-            string = string[:i] + new + string[i+len(old):]
-    return string
+def gantiString(string_awal, string_lama, string_baru):
+    for i in range(len(string_awal)):
+        if string_lama == string_awal[i:i+len(string_lama)]:
+            string_awal = string_awal[:i] + string_baru + string_awal[i+len(string_lama):]
+    return string_awal
 
 
-print(rplstr('amanda', 'a', 'o'))
+print(gantiString('Lembah Harau', 'a', 'o'))

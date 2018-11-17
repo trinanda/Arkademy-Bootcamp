@@ -12,7 +12,7 @@ def validate():
         elif re.search('[a-z]', password) is None:
             print("Pola yang di masukan salah, mohon diulangi!")
         else:
-            print("Your password seems fine")
+            print("Sukses")
             break
 
 validate()

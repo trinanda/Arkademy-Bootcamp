@@ -1,17 +1,9 @@
-# Arkademy-Bootcamp
+#   بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
+
+#### Semoga Lulus ya Allah, Aamiin
+
+#### Arkademy-Bootcamp
 
 
-
-
-
-sudah
-2
-4
-6
-7
-5
-3
-
-
-belum
-1
+##### Keterangan
+-  Untuk soal nomor 7 menggunakan Flask, silahkan install terlebih dahulu semua package yang ada di requiements.txt 

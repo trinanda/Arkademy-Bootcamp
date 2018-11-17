@@ -1,25 +1,5 @@
-"create"
+Untuk soal nomor 6 file backup nya ada di file Arkademy.sql
 
-CREATE TABLE product_categories
-
-
-
-===========================================================================================
-"insert"
-
-INSERT INTO `products` (`id`, `name`, `category_id`, `created_date`) VALUES
-(1, 'Sabun Wangi', 1, '2014-12-22 12:45:34'),
-(2, 'Minuman Cola', 2, '2014-12-22 12:45:36'),
-(3, 'Prenagon Gold', 3, '2014-12-22 12:46:34'),
-(5, 'Aquaa', 2, '2014-12-22 12:47:34'),
-(6, 'The Botol', 2, '2014-12-22 12:48:34'),
-(7, 'Sampo', 1, '2014-12-22 12:45:40');
-
-
-===========================================================================================
-
-
-"Jawaban SELECT untuk nomor 6"
-
+Dan untuk jawaban query select nomor 6, berikut adalah query MySQL nya:
 
 select product_categories.id, product_categories.name, products.name FROM products INNER JOIN product_categories ON products.category_id=product_categories.id LIMIT 3;
